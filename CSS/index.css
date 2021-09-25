@@ -1,22 +1,56 @@
+body{
+    background-color: #fadee7;
+}
+
+
 .inline-block{
     display: inline-block;
     vertical-align: top;
 }
-#brand {
-    width: 80px;
-    padding:1%;
-    object-fit: cover;
-    object-position: 50% 50%;
+.logo{
     display: inline-block;
-    position: absolute;
+    width: 23%;
+    padding: 1%;
 }
-#logoType{
-    width: 200px;
-    padding:1%;
-    object-fit: cover;
-    object-position: 50% 50%;
-    display: inline-block; 
+
+
+nav{
+    width:100%;
+}
+ul{
+    width:50%;
+    margin-left: auto;
 }
 .navigation{
-    position: absolute;
+    height: fit-content;
+    background-color: white;
+    justify-content: center;
+
 }
+
+
+
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+.content{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+
+footer{
+    background-color: blueviolet;
+    padding: 15px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+}
+li{
+    padding: 15px;
+}
+
