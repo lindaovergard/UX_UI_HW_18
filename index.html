@@ -9,7 +9,7 @@
     <body>
  <!-- Navbar -->
         
-            
+ <div class="topPinkBar"></div>
               <nav id="navBar">
                 <h1 class="name">Linda Overgård</h1>
 
@@ -45,12 +45,18 @@
             </div>
            </div>
         </section>
-        <div class="divider"></div>
+        <div id="divider"></div>
  <!-- Skills --> 
-       <section class="skills">
-           <div class="skillsbg"></div>
-           <div class="yellow">
-               <h1 class="blue">Skills</h1>
+
+       <div class="headerbg"><h1 class="blue">Skills</h1></div>
+    
+       <section id="skillsGrid" class="bgskills">
+           
+           
+
+           
+
+              <div id="general" class=skillsGridArea>
                
                <ul class="skills">
                    <h2 class="acblue">GENERAL</h2>
@@ -65,6 +71,9 @@
                    <li class="general">Art Direction</li>
 
                </ul>
+            </div> 
+              
+              <div id="design" class=skillsGridArea>
                
                <ul class="skills">
                    <h2 class="acblue">DESIGN</h2>
@@ -76,7 +85,9 @@
                    <li class="design">Visual Studio Code</li>
                 
                </ul>
+              </div> 
 
+              <div id="engineering" class=skillsGridArea></div>
                <ul class="skills">
                    <h2 class="acblue">ENGINEERING</h2>
                    <li class="engineering">HTML</li>
@@ -87,39 +98,51 @@
                    <li class="engineering">IKEA</li>
 
                </ul>
+              </div>
 
-            </div>
-            <div class="Divider"></div>
+            
+            
+
+            
        </section>
+       <div class="pinkBar"></div>
+       <div id="divider"></div>
 
 <!-- Work -->
 
-      <section class="work">
-          <div class="blueBar"></div>
-          <h1 class="blue">Work</h1>
-          <div class="workGrid">
-              <div class="goodToGo"><img src="Images/GTG.png" alt="GoodToGo App"> </div>
-              <div>
+<div class="blueBar"></div>
+<h1 class="blue">Work</h1>
+      <section id="workGrid">
+          
+          
+              <div id="goodToGo" class="projectGridArea">
+
+                <div class="workDescriptions">  
                   <h2 class="work">GoodToGo</h2>
                   <p>— the Travel App that helps users find and store information and documentation needed when travelling post-pandemic.</p>
+                </div>  
               </div>
-              <div class="energy"><img src="Images/Energy.png" alt="energy.gov"> </div>
-              <div>
+              <div id="energy" class="projectGridArea">
+                <div class="workDescriptions">
                   <h2 class="work">ENERGY.GOV</h2>
                   <p>— a study in how user friendly the site is, and, through research, establish how to better organize the information on the site so that it is a more intuitive experience for the user.
                 </p>
+                </div>
               </div>
-              <div class="happyhamper"><img src="Images/HappyHamper.png" alt="HappyHamper App"> </div>
-              <div>
+              <div id="happyhamper" class="projectGridArea">
+                <div class="workDescriptions">
                   <h2 class="work">HappyHamper</h2>
                   <p>— the app that connects people who need help with their laundry with a HappyHamper, that will pick up your hamper, do your laundry per your preferences, 
                     and then drop it off in a timely manner.</p>
+                </div>
               </div>
-              <button>MORE WORK —></button>
-          </div>
-          <div class="yellowBar"></div>
+              
+          
           
       </section>
+      <button>MORE WORK —></button>
+      <div class="yellowBar"></div>
+
  
  
 <!-- Footer -->       
@@ -127,9 +150,9 @@
             
             <ul>
                 <h1 class="pink">*Touch base:</h1>
-                <li>TELEPHONE</li>
-                <li>EMAIL</li>
-                <li>LINKEDIN</li>
+                <li>TELEPHONE</li><br>
+                <li>EMAIL</li><br>
+                <li>LINKEDIN</li><br>
             </ul>
             <p class="copyright">© 2021 Linda Overgård</p>
         </footer>

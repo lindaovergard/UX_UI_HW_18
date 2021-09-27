@@ -1,8 +1,13 @@
 body{
     font-family: 'Inter', sans-serif;
-    background-color: #fadee7;
+    
 }
 /*navigation CSS*/
+.topPinkBar{
+    background: #fadee7;
+    height: 15px ;
+    width:100%;
+}
 #navBar{
     background: white;
     height: 100px;
@@ -12,9 +17,11 @@ body{
 }
 .name{
     width: 25%;
+    font-size: 40px;
     font-weight: 700;
     padding-top: 5px;
     margin: auto;
+    margin-left: 20%;
 }
 .logo{
     display: block;
@@ -29,6 +36,7 @@ body{
     align-items: center;
     justify-content:space-evenly;
     margin: auto;
+    margin-right: 20%;
     
 }
 #navigation p{
@@ -48,7 +56,7 @@ body{
 
 .imageLinda{
     height: 400px;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 #pinkLinda{
     height: 400px;
@@ -56,25 +64,146 @@ body{
 .intro{
     background: #fadee7;
     height: 400px;
-    margin-right: 20%;
+    margin-right: 15%;
     padding-right: 25px;
 
 }
 #divider{
     background:white;
-    height: 50px;
+    height: 75px;
     background-image: url("../Images/cmyk.png");
     background-repeat: no-repeat;
     background-position: center;
 
-    
-    
+}
+/* skills CSS*/
+.bgskills{
+    background-image: url("../Images/Fabrikken_pink.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.pinkBar{
+    background: #fadee7;
+    height: 30px ;
+    width:100%;
+   
 }
 
 
 
 
+
+
+#skillsGrid{
+
+    display: grid;
+
+    grid-template-areas:
+    "general design engineering";
+
+}
+.skills {
+    background-position: center;
+    background-color: rgba(255, 242, 0, .65);
+    background-repeat: no-repeat;
+    align-content: center;
+
+
+    
+
+}
+
+
+
+/*work CSS*/
+
+.blueBar{
+    background: #00aeef;
+    height: 30px ;
+    width:100%;
+    margin-left: 15%;
+}
+#workGrid{
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "goodToGo energy happyhamper";
+
+}
+#goodToGo{
+    grid-area: goodToGo;
+    background-image: url("../Images/GTG.png");
+}
+#energy{
+    grid-area: energy;
+    background-image: url("../Images/Energy.png");
+}
+#happyhamper{
+    grid-area: happyhamper;
+    background-image: url("../Images/HappyHamper.png");
+    
+}
+
+.projectGridArea{
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 25px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+    
+
+}
+.workDescriptions{
+    background-color:rgba(0, 0,0, .5);
+    height: inherit;
+}
+.yellowBar{
+    background: #fff200;
+    height: 30px;
+    width: 100%;
+    margin-left: 15%;
+}
+button {
+    border: none;
+    background:none;
+    color: #ec0e8b;
+    
+}
+
+/*footer CSS*/
+.copyright{
+    text-align: center;
+    color: #b2e4ca;
+    background: #00a651;
+    height: 50px;
+    width: 100%;
+    padding-top: 30px;
+}
+ul{
+    list-style: none;
+    margin-left: 20%;
+
+}
+footer{
+    background: white;
+    height: 230px;
+    width:100%;
+}
 /*typography CSS*/
 .pink{
     color: #ec0e8b;
+    padding-top: 2%;
 }
+.blue{
+    color: #00aeef;
+    margin-left: 20%;
+}
+
