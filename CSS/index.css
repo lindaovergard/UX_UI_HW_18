@@ -2,16 +2,16 @@ body{
     background-color: #fadee7;
 }
 
+header{
+    justify-content: center;
+}
+
 
 .inline-block{
     display: inline-block;
     vertical-align: top;
 }
-.logo{
-    display: inline-block;
-    width: 23%;
-    padding: 1%;
-}
+
 
 
 nav{
@@ -20,11 +20,16 @@ nav{
 ul{
     width:50%;
     margin-left: auto;
+    justify-content: right;
+}
+
+.logo{
+    margin: 0 auto;
 }
 .navigation{
-    height: fit-content;
     background-color: white;
-    justify-content: center;
+    
+    
 
 }
 
@@ -32,8 +37,11 @@ ul{
 
 
 .heroImg {
-    height: 600px;
+    height: 425px;
     padding: 25px;
+}
+#Linda{
+    width: 425px;
 }
 .content{
     width: 500px;
