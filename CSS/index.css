@@ -1,4 +1,80 @@
 body{
+    font-family: 'Inter', sans-serif;
     background-color: #fadee7;
 }
+/*navigation CSS*/
+#navBar{
+    background: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    width: 25%;
+    font-weight: 700;
+    padding-top: 5px;
+    margin: auto;
+}
+.logo{
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin:auto;
+}
 
+.navigation{
+    display: flex;
+    width:25%;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: auto;
+    
+}
+#navigation p{
+    cursor: pointer;    
+
+}
+/*herosection CSS*/
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #b2e7fa;
+    height: 600px;
+}
+
+.imageLinda{
+    height: 400px;
+    margin-left: 20%;
+}
+#pinkLinda{
+    height: 400px;
+}
+.intro{
+    background: #fadee7;
+    height: 400px;
+    margin-right: 20%;
+    padding-right: 25px;
+
+}
+#divider{
+    background:white;
+    height: 50px;
+    background-image: url("../Images/cmyk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+    
+}
+
+
+
+
+/*typography CSS*/
+.pink{
+    color: #ec0e8b;
+}
