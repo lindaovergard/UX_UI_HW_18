@@ -51,6 +51,7 @@ body{
 }
 .container{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 
@@ -58,10 +59,12 @@ body{
 
 .imageLinda{
     height: 400px;
+    
     margin-left: 15%;
     margin-top: 6%;
 
 }
+
 #pinkLinda{
     height: 400px;
 }
@@ -279,22 +282,15 @@ h3{
 }
 
 /*mediaQuery CSS*/
-@media only screen and (max-width: 600){
-    .flexContainer{
-        display: flex;
-        flex-direction: column;
-        margin-left: 20%;
-        background-color: rgba(255, 242, 0, .65);
-        margin-right: 40%;
-    }
-    #general #design #engineering{
-        width: 100%;
-    }
+@media only screen and (max-width: 600px){
+    
+    
     #workGrid{
-        margin: 0px 5%;
+        margin-left: 10%;
+        margin-right: 10%;        
         display: grid;
-        grid-template-rows: 300px 60px 300px 60px 300px 60px 300px 60px;
-        grid-template-columns: 300px;
+        grid-template-rows: 300px 20px 300px 20px 300px 20px;
+        grid-template-columns: 450px;
         grid-template-areas:
         "goodToGo"
         "titleGTG"
@@ -303,6 +299,49 @@ h3{
         "happyhamper"
         "titleHH";
     }
+    button{
+        margin-left: auto;
+    }
     
     
+}
+@media only screen and (max-width: 1000px){
+    .navigation{
+        display:none;
+    }
+    .name{
+        display:none;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .hero{
+        height:max-content;
+    }
+    
+    .intro{
+        height:fit-content;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 0%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        background-color: rgba(255, 242, 0, .65);
+        margin-right: 20%;
+    }
+    #general #design #engineering{
+        width: 100%;
+    }
+
+
 }
