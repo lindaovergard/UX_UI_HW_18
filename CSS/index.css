@@ -86,26 +86,22 @@ body{
     background-image: url("../Images/Fabrikken_pink.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
 
 }
 
 .pinkBar{
     background: #fadee7;
-    height: 30px ;
+    height: 30px;
     width:100%;
    
 }
 
 
-
-
-
-
 #skillsGrid{
 
     display: grid;
-    grid-template-rows:400px;
+    grid-template-rows:100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
     "general design engineering";
@@ -113,13 +109,17 @@ body{
 
 }
 .skills {
-    background-position: center;
+    margin-top: -15%;
     background-color: rgba(255, 242, 0, .65);
-    background-repeat: no-repeat;
     align-content: center;
     padding: 25px;
-
-
+}
+.skillsGridArea{
+    margin-top: 6%;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: grid;
+    
     
 
 }
@@ -137,10 +137,11 @@ body{
 #workGrid{
     margin: 0px 5%;
     display: grid;
-    grid-template-rows: 400px;
+    grid-template-rows: 300px 60px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-    "goodToGo energy happyhamper";
+    "goodToGo energy happyhamper"
+    "titleGTG titleE titleHH";
 
 }
 #goodToGo{
@@ -162,7 +163,7 @@ body{
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 25px;
+    margin: 8%;
     cursor: pointer;
     display: grid;
     align-content: center;
@@ -171,7 +172,10 @@ body{
 
 }
 .workDescriptions{
-    background-color:rgba(236, 14,139, .8);
+    margin: 10%;
+    cursor: pointer;
+    display: grid;
+    margin-top: -10%;
 }
 .yellowBar{
 
@@ -202,7 +206,7 @@ button {
 }
 ul{
     list-style: none;
-    margin-left: 20%;
+    margin-left: 16%;
 
 }
 footer{
@@ -230,8 +234,8 @@ footer{
     margin-left: 20%;
 }
 h2{
-    font-size: 30px;
-    color: white;
+    font-size: 24px;
+    color:black;
     font-weight: 500;
 }
 h3{
@@ -248,7 +252,7 @@ h3{
     font-style: normal;
     font-weight: 500;
     color: black;
-    line-height: 18px;
+    line-height: 22px;
     margin-right: 10%;
 }
 
