@@ -82,7 +82,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: 100%;
 
 }
 
@@ -101,6 +101,7 @@ body{
 #skillsGrid{
 
     display: grid;
+
 
     grid-template-areas:
     "general design engineering";
@@ -157,13 +158,12 @@ body{
     margin: 25px;
     cursor: pointer;
     display: grid;
-    align-content: end;
+    align-content: center;
     
 
 }
 .workDescriptions{
-    background-color:rgba(0, 0,0, .5);
-    height: inherit;
+    background-color:rgba(300, 300,300, .7);
 }
 .yellowBar{
     background: #fff200;
